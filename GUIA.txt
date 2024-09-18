@@ -1,0 +1,71 @@
+/mi_aplicacion_flask
+│
+├── /app                   # Carpeta principal de la aplicación
+│   ├── __init__.py       # Inicializa la aplicación Flask
+│   ├── routes.py         # Define las rutas de la aplicación
+│   ├── models.py         # Define los modelos de datos (si usas una base de datos)
+│   ├── forms.py          # Define formularios (si usas Flask-WTF)
+│   ├── static/           # Archivos estáticos (CSS, JavaScript, imágenes)
+│   └── templates/        # Plantillas HTML (Jinja2)
+│
+├── /instance              # Carpeta para configuraciones específicas de la instancia
+│   └── config.py         # Configuraciones específicas de la instancia
+│
+├── /tests                 # Carpeta para pruebas
+│   └── test_basic.py      # Pruebas básicas de la aplicación
+│
+├── requirements.txt       # Dependencias del proyecto
+├── README.md              # Documentación del proyecto
+└── run.py                 # Script para ejecutar la aplicación
+
+
++ mi_proyecto
+|_ app.py
+|_ forms.py
+|_ models.py
+|_ static/
+|_ templates/
+
+
+/mi_aplicacion_flask
+│
+├── /app                  # Carpeta principal de la aplicación
+│   ├── __init__.py       # Inicializa la aplicación Flask
+│   ├── models.py         # Define los modelos y consultas
+│   ├── routes.py         # Define las rutas de la aplicación
+│   ├── forms.py          # Define formularios (si usas Flask-WTF)
+│   ├── static/           # Archivos estáticos (CSS, JavaScript, imágenes)
+│   └── templates/        # Plantillas HTML (Jinja2)
+│
+├── requirements.txt      # Dependencias del proyecto
+├── config.py             # Configuraciones de la aplicación
+└── README.md 
+
+
+├── flaskr/
+│   ├── __init__.py
+│   ├── db.py
+│   ├── schema.sql
+│   ├── auth.py
+│   ├── blog.py
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── auth/
+│   │   │   ├── login.html
+│   │   │   └── register.html
+│   │   └── blog/
+│   │       ├── create.html
+│   │       ├── index.html
+│   │       └── update.html
+│   └── static/
+│       └── style.css
+├── tests/
+│   ├── conftest.py
+│   ├── data.sql
+│   ├── test_factory.py
+│   ├── test_db.py
+│   ├── test_auth.py
+│   └── test_blog.py
+├── .venv/
+├── pyproject.toml
+└── MANIFEST.in
